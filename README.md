@@ -1,4 +1,4 @@
-# DualTeach: Dual-Teacher Knowledge Distillation for Compact Math Reasoning Models
+# DualTeach: Disagreement-Aware Dual-Teacher Distillation for Reliable Agentic Services
 
 DualTeach is a knowledge distillation framework that trains a **1.1B student model** (Gemma-3-1B-IT) using **two teachers simultaneously** — a large teacher (Gemma-3-12B-IT) and a small teacher (Gemma-3-4B-IT) — with an **adaptive temperature** mechanism that dynamically adjusts distillation difficulty based on teacher disagreement.
 
